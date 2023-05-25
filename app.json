@@ -29,8 +29,11 @@
       [
         "expo-build-properties",
         {
+          "android": {
+            "unstable_networkInspector": true
+          },
           "ios": {
-            "flipper": true
+            "unstable_networkInspector": true
           }
         }
       ]
